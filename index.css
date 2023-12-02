@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background-color: black;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+}
+
+.venom-img {
+  margin-left: 21%;
+  height: 33rem;
+  width: 55rem;
+  cursor: pointer;
+}
+
+.venom-gif {
+  height: 33rem;
+  width: 55rem;
+  align-items: center;
+}
+
+.VENOM2-gif {
+  height: 7rem;
+  width: 20rem;
+}
+
+button {
+  border: none;
+  margin-top: 2px;
+  margin-left: 39%;
+  height: 7rem;
+  width: 20.3rem;
+  cursor: pointer;
+  background-color: black;
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: black;
+    overflow: -moz-hidden-unscrollable;
+  }
+
+  .venom-img {
+    margin-top: 180px;
+    height: 200px;
+    width: 230px;
+  }
+
+  .venom-gif {
+    height: 200px;
+    width: 100%;
+  }
+
+  .VENOM2-gif {
+    height: 5rem;
+    width: 10rem;
+  }
+
+  button {
+    margin-top: 30px;
+    margin-left: 27%;
+    height: 5rem;
+    width: 10rem;
+  }
+}
